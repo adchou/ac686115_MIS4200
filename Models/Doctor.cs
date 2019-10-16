@@ -19,9 +19,13 @@ namespace ac686115_MIS4200.Models
 
         public string phone { get; set; }
 
+        public int patientId {get; set; }
+
+        
+
         public ICollection<Patient> Patient { get; set; }
 
-        public int patiendID { get; set; }
+       
 
        
 
